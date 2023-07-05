@@ -1,8 +1,14 @@
+"use client"
 import Image from 'next/image'
 import picture from "../../public/image.jpg"
+import MobileHome from '@/components/homepage/MobileHome';
+import useBetterMediaQuery from '@/components/util/UseBetterMediaQuery'
 export default function Home() {
+  const isMobile = useBetterMediaQuery("(max-width: 899px)");
   return (
-    <main className='w-[70%] mx-auto mt-20'>
+    <main className='w-[85%] umd:w-[70%] mx-auto mt-20'>
+    {isMobile ? <MobileHome />
+      :
       <section className='grid grid-cols-2 text-black items-center'>
         <div className='col-span-1 mx-auto'>
           <h3 className='text-[#FDC435] uppercase font-bold text-xl'>Full-stack Web Developer</h3>
@@ -15,6 +21,7 @@ export default function Home() {
         </div>
         <Image src={picture} width={800} height={800} className="mx-auto rounded-full w-[60%]" ></Image>
       </section>
+    }
     </main>
   )
 }
