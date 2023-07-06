@@ -5,6 +5,8 @@ import quickplate from "../../../public/quickplate-desktop.png"
 import quickplatephone from "../../../public/quickplate-mobile.png"
 import unsplash from "../../../public/unsplash-desktop.png"
 import unsplashphone from "../../../public/unsplash-mobile.png"
+import MobileHomeFrontend from "./MobileHomeFrontend"
+import ContactForm from "./ContactForm"
 import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link"
@@ -27,7 +29,7 @@ export default function MobileHome(){
     <div className='mx-auto text-center'>
       <h3 className='text-[#FDC435] uppercase font-bold text-lg'>Full-stack Web Developer</h3>
       <Image src={picture} width={800} height={800} className="mx-auto rounded-full w-[60%]" ></Image>
-      <h2 className='font-bold text-[2rem] leading-[120%]'>Hello, my name is Sinan Koyuncu</h2>
+      <h2 className='font-bold text-[2rem] leading-[120%] mt-2'>Hello, my name is Sinan Koyuncu</h2>
       <p className="">I'm a full-stack web developer who's experienced in Node.js, React and Next.js</p>
       <div className='mx-auto flex flex-row justify-center mt-[2rem] '>
         <button className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg'>Projects</button>
@@ -75,7 +77,7 @@ export default function MobileHome(){
     <section className="text-center text-black mt-20"> 
         <h2 className="font-bold text-4xl">PROJECTS</h2>
         <hr className="w-[2rem] mx-auto rounded-xl mt-4 border-[#FDC435] border-4"></hr>
-        <div className="flex flex-row justify-between mt-4">
+        <div className="flex flex-row justify-between my-4">
             <h3 onClick={handleFullstackClick} className="font-semibold text-xl">Full-stack Projects</h3>
             <h3 onClick={handleFrontendClick} className="font-semibold text-xl">Frontend Projects</h3>
         </div>
@@ -122,10 +124,12 @@ export default function MobileHome(){
         </>}
         {showFrontend && <>
             <div>
-
+            <MobileHomeFrontend />
             </div>
         </>}
-        
+    </section>
+    <section>
+    <ContactForm />
     </section>
         </>
 
