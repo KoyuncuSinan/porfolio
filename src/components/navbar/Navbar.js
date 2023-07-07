@@ -1,13 +1,14 @@
 "use client"
-import Link from "next/link";
 import MenuIcon from '@mui/icons-material/Menu';
 import useBetterMediaQuery from "../util/UseBetterMediaQuery";
 import BurgerMenu from "./BurgerMenu";
+import {Link} from "react-scroll"
 import { useState } from "react";
 
 export default function Navbar(){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const isMobile = useBetterMediaQuery("(max-width: 899px)");
+
 
     const handleMenuClick = () => {
         setIsMenuOpen(!isMenuOpen)
@@ -18,7 +19,7 @@ export default function Navbar(){
             {isMobile ?
             <>
             <nav className="text-black w-[85%] mx-auto flex items-center justify-between">
-                <span>Sinan Koyuncu</span>
+                <a href={"/"}>Sinan Koyuncu</a>
                 <div className>
                 <MenuIcon onClick = {handleMenuClick}/>
                 </div>
@@ -27,12 +28,12 @@ export default function Navbar(){
             </>
             :
             <nav className="grid grid-cols-4 w-[70%] mx-auto items-center  text-black">
-            <span className="col-span-1">Sinan Koyuncu</span>
+            <a href={"/"} className="col-span-1">Sinan Koyuncu</a>
             <ul className="flex flex-row col-span-3 justify-end items-center">
-                <li className="mr-5"><Link href={"/"}>About</Link></li>
-                <li className="mr-5"><Link href={"/"}>Projects</Link></li>
-                <li className="mr-5"><Link href={"/"}>Skills</Link></li>
-                <li><Link href={"/"}>Contacts</Link></li>
+                <li className="mr-5 hover:bg-[#FDC435] p-1 rounded-md cursor-pointer"><Link to="about" spy={true} smooth={true} offset={2} duration={500} >About</Link></li>
+                <li className="mr-5 hover:bg-[#FDC435] p-1 rounded-md cursor-pointer"><Link to="projects" spy={true} smooth={true} offset={2} duration={500} >Projects</Link></li>
+                <li className="mr-5 hover:bg-[#FDC435] p-1 rounded-md cursor-pointer"><Link to="skills" spy={true} smooth={true} offset={2} duration={500} >Skills</Link></li>
+                <li className="hover:bg-[#FDC435] p-1 rounded-md cursor-pointer"><Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</Link></li>
             </ul>
             </nav>
         }

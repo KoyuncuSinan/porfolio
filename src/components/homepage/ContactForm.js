@@ -38,7 +38,7 @@ const ContactForm = () => {
   
     return (
       <div className="text-center text-black mt-24">
-        <h2 className="font-bold text-4xl">CONTACT</h2>
+        <h2 className="font-bold text-4xl" id="contact">CONTACT</h2>
         <hr className="w-[2rem] mx-auto rounded-xl mt-4 border-[#FDC435] border-4"></hr>
         <p className="mt-4">Feel free to reach out to me by filling out the form below, and I will respond to you as soon as I can.</p>
         {sent ? (
@@ -80,7 +80,7 @@ const ContactForm = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Send Message</button>
+            <button type="submit" className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white">Send Message</button>
             {error && <p>{error}</p>}
           </form>
         )}

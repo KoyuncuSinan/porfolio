@@ -25,7 +25,7 @@ export default function MobileHome(){
       }
     return(
         <>
-    <section className=' text-black items-center'>
+    <section className=' text-black items-center min-h-screen mt-16'>
     <div className='mx-auto text-center'>
       <h3 className='text-[#FDC435] uppercase font-bold text-lg'>Full-stack Web Developer</h3>
       <Image src={picture} width={800} height={800} className="mx-auto rounded-full w-[60%]" ></Image>
@@ -38,7 +38,7 @@ export default function MobileHome(){
     </div>
   </section>
     <section className="text-black text-center mt-20">
-        <h2 className="font-bold text-4xl">ABOUT ME</h2>
+        <h2 className="font-bold text-4xl" id="about">ABOUT ME</h2>
         <hr className="w-[2rem] mx-auto rounded-xl mt-4 border-[#FDC435] border-4"></hr>
         <p className="text-base font-light mt-4">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.</p>
     </section>
@@ -49,7 +49,7 @@ export default function MobileHome(){
          <button className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Contact</button>
     </div>
     <div className="mt-12">
-        <h3 className="font-bold text-xl mb-4">My Skills</h3>
+        <h3 className="font-bold text-xl mb-4" id="skills">My Skills</h3>
         <div className="grid grid-cols-2 text-center items-center xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5">
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2" >HTML</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">CSS</span>
@@ -75,7 +75,7 @@ export default function MobileHome(){
     </div>
     </section>
     <section className="text-center text-black mt-20"> 
-        <h2 className="font-bold text-4xl">PROJECTS</h2>
+        <h2 className="font-bold text-4xl" id="projects">PROJECTS</h2>
         <hr className="w-[2rem] mx-auto rounded-xl mt-4 border-[#FDC435] border-4"></hr>
         <div className="flex flex-row justify-between my-4">
             <h3 onClick={handleFullstackClick} className="font-semibold text-xl">Full-stack Projects</h3>

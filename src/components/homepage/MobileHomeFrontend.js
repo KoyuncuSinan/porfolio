@@ -17,7 +17,7 @@ return(
             </div>
             <p className="my-10">adasdasdasdasdasdasadasd</p>
             <div className="mb-5">
-            <Link href={"/interactivecard"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
+            <Link href={"https://github.com/KoyuncuSinan/interactive-credit-card"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
 
             </div>
         </div>
@@ -30,7 +30,7 @@ return(
             </div>
             <p className="my-10">adasdasdasdasdasdasadasd</p>
             <div className="mb-5">
-            <Link href={"/newslanding"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
+            <Link href={"https://github.com/KoyuncuSinan/news-landing-page"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
 
             </div>
         </div>
@@ -42,7 +42,7 @@ return(
             </div>
             <p className="my-10">adasdasdasdasdasdasadasd</p>
             <div className="mb-5">
-            <Link href={"/billingpage"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
+            <Link href={"https://github.com/KoyuncuSinan/billing-page"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
             </div>
 
         </div>

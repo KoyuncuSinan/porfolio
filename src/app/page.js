@@ -1,17 +1,30 @@
 "use client"
 import MobileHome from '@/components/homepage/MobileHome';
 import useBetterMediaQuery from '@/components/util/UseBetterMediaQuery'
+import Navbar from '@/components/navbar/Navbar';
 import DesktopHome from '@/components/homepage/DesktopHome';
+import RootLayout from './layout';
 
 export default function Home() {
   const isMobile = useBetterMediaQuery("(max-width: 899px)");
 
   return (
-    <main className='w-[85%] umd:w-[70%] mx-auto mt-20'>
-    {isMobile ? <MobileHome />
+    <>
+     <Navbar />
+    <main className='w-[85%] umd:w-[70%] mx-auto'>
+    {isMobile ? <>
+     
+      <MobileHome />
+    </>
       :
+
+
       <DesktopHome />
+
     }
     </main>
+
+    </>
+    
   )
 }
