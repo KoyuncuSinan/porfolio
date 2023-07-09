@@ -15,9 +15,9 @@ return(
                 <Image src={interactiveCardMobile} width={800} height={800} className="w-[50%] h-[50%]"></Image>
 
             </div>
-            <p className="my-10">adasdasdasdasdasdasadasd</p>
+            <p className="my-10">Card design that reflects the entered credit card information interactively on the screen.</p>
             <div className="mb-5">
-            <Link href={"https://github.com/KoyuncuSinan/interactive-credit-card"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
+            <Link href={"/interactivecard"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
 
             </div>
         </div>
@@ -28,9 +28,9 @@ return(
                 <Image src={newsLandingMobile} width={800} height={800} className="w-[50%] h-[50%]"></Image>
 
             </div>
-            <p className="my-10">adasdasdasdasdasdasadasd</p>
+            <p className="my-10">An example of a homepage that a technology news website could use.</p>
             <div className="mb-5">
-            <Link href={"https://github.com/KoyuncuSinan/news-landing-page"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
+            <Link href={"/newslanding"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
 
             </div>
         </div>
@@ -40,9 +40,9 @@ return(
                 <Image src={billingpagedesktop} width={800} height={800}></Image>
 
             </div>
-            <p className="my-10">adasdasdasdasdasdasadasd</p>
+            <p className="my-10">A billing page that shows your billing history, payments and card details in a modern way.</p>
             <div className="mb-5">
-            <Link href={"https://github.com/KoyuncuSinan/billing-page"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
+            <Link href={"/billing"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</Link>
             </div>
 
         </div>

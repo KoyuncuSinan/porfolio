@@ -17,9 +17,9 @@ return(
         </div>
         <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
         <h3 className="font-bold text-3xl">Interactive Card</h3>
-        <p className="text-slate-600">Gadget Box is a social platform for gamers, where they connect with community and share their reviews about games.</p>
+        <p className="text-slate-600">Card design that reflects the entered credit card information interactively on the screen.</p>
         <div>
-        <Link href={"https://github.com/KoyuncuSinan/interactive-credit-card"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white">Go to project</Link>
+        <Link href={"/interactivecard"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white">Go to project</Link>
         </div>
     </div>
     </div>
@@ -33,9 +33,9 @@ return(
        </div>
        <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
        <h3 className="font-bold text-3xl">News Website Landing Page</h3>
-       <p className="text-slate-600">Gadget Box is a social platform for gamers, where they connect with community and share their reviews about games.</p>
+       <p className="text-slate-600">An example of a homepage that a technology news website could use.</p>
        <div>
-       <Link href={"https://github.com/KoyuncuSinan/news-landing-page"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white">Go to project</Link>
+       <Link href={"/newslanding"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white">Go to project</Link>
        </div>
    </div>
    </div>
@@ -48,9 +48,9 @@ return(
         </div>
         <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
         <h3 className="font-bold text-3xl">Billing Page</h3>
-        <p className="text-slate-600">Gadget Box is a social platform for gamers, where they connect with community and share their reviews about games.</p>
+        <p className="text-slate-600">A billing page that shows your billing history, payments and card details in a modern way.</p>
         <div>
-        <Link href={"https://github.com/KoyuncuSinan/billing-page"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white">Go to project</Link>
+        <Link href={"/billing"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white">Go to project</Link>
         </div>
     </div>
     </div>
