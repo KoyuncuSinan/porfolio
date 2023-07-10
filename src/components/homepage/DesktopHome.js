@@ -67,22 +67,22 @@ export default function DesktopHome(){
     <section className="text-black grid grid-cols-2">
     <div className="mt-12 col-span-1 w-[80%]">
         <h3 className="font-bold text-xl mb-4">Get to know me</h3>
-         <p className='leading-loose'>
+         <div className='leading-loose'>
          Welcome to my portfolio website! My name is Sinan Koyuncu, and I am a passionate <b>full-stack web developer.</b> With a solid foundation as a web content editor for five years, 
          I have seamlessly transitioned into the world of programming, honing my skills and expertise through self-learning and <b>hands-on experience.</b>
-         <div className='mt-2'>Throughout my journey as a web content editor, I developed a deep understanding of the importance of <b>user experience</b> and captivating content. 
+         <p className='mt-2'>Throughout my journey as a web content editor, I developed a deep understanding of the importance of <b>user experience</b> and captivating content. 
                 I learned how to create engaging web pages, <b>optimize content for search engines</b>, and ensure a seamless browsing experience for users. 
                 This role provided me with valuable insights into the intricacies of web development and fueled my desire to explore the technical side of building websites.
-            </div>
-              <div className='mt-2'>One of my key strengths lies in my ability to bridge the gap between design and development. Having previously worked as a web content editor, 
+            </p>
+              <p className='mt-2'>One of my key strengths lies in my ability to bridge the gap between design and development. Having previously worked as a web content editor, 
               I possess a unique perspective that enables me to understand and <b>effectively collaborate with designers, content creators, and other stakeholders.</b> I thrive in collaborative environments, and I am always eager to contribute my technical expertise while actively seeking opportunities for growth and learning.
-            </div>
-            <div className='mt-2'>
+            </p>
+            <p className='mt-2'>
             This portfolio website showcases some of my recent projects, which highlight my skills as a full-stack web developer. 
             I invite you to explore my work and get a glimpse of my coding style, problem-solving abilities, and creativity.
-            </div>
-            <div className='mt-2'>Thank you for visiting my portfolio. I look forward to connecting with you and discussing for job opportunities.</div>
-          </p>
+            </p>
+            <p className='mt-2'>Thank you for visiting my portfolio. I look forward to connecting with you and discussing for job opportunities.</p>
+          </div>
           <div className='mt-4'>
          <Link to="contact" spy={true} smooth={true} offset={2} duration={500} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white cursor-pointer">Contact</Link>
           </div>
