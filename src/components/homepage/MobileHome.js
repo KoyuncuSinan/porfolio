@@ -40,7 +40,7 @@ export default function MobileHome(){
       <h2 className='font-bold text-[2rem] leading-[120%] mt-2'>Hello, my name is Sinan Koyuncu</h2>
       <p className="">I'm a full-stack web developer who's experienced in Node.js, React and Next.js</p>
       <div className='mx-auto grid grid-cols-3 xs:flex flex-row xs justify-center mt-[2rem] '>
-      <Link to="projects" spy={true} smooth={true} offset={2} duration={500} className='mr-[0.75rem] mx-auto rounded-lg bg-[#FDC435] py-[0.5rem] px-[0.5rem] 
+      <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} className='mr-[0.75rem] mx-auto rounded-lg bg-[#FDC435] py-[0.5rem] px-[0.5rem] 
       font-medium text-sm  xs:text-base sm:text-lg focus:bg-[#f37d1d] cursor-pointer flex items-center' >Projects
         <FolderIcon className="ml-2"/>
       </Link>
@@ -81,7 +81,7 @@ export default function MobileHome(){
             <p className='mt-2'>Thank you for visiting my portfolio. I look forward to connecting with you and discussing for job opportunities.</p>
           </div>
          <div className="mt-4">
-         <Link to="contact" spy={true} smooth={true} offset={2} duration={500} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white ">Contact</Link>
+         <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white ">Contact</Link>
          </div>
     </div>
     <div className="mt-12">
@@ -107,6 +107,9 @@ export default function MobileHome(){
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Python Basics</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">SEO</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Responsive Design</span>
+        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Adobe Photoshop</span>
+        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Figma</span>
+        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Adobe Premiere</span>
 
 
         </div>

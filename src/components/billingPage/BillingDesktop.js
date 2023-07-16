@@ -16,7 +16,7 @@ export default function BillingDesktop(){
                     <p className="mt-5 text-gray-600 text-left">A billing page that shows your billing history, 
                     payments and card details in a modern way. *Develeped specifically for <b>1080px</b> for a challenge.</p>
                     <div className='mx-auto flex flex-row justify-center mt-[2rem]'>
-                        <a target="_blank" href={"https://gadget-box.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
+                        <a target="_blank" href={"https://billing-page-nine.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
                         <a href={"https://github.com/KoyuncuSinan/billing-page"}  target="_blank" className='py-[0.5rem] rounded-lg px-[1.5rem] font-medium text-lg border-2 border-black hover:bg-black hover:text-white'>GitHub</a>
                      </div>
                 </div>

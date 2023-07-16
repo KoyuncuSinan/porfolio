@@ -17,7 +17,7 @@ export default function BillingMobile(){
                 
             </div>
             <div className='mx-auto flex flex-row justify-center mt-[2rem]'>
-                    <a target="_blank" href={"https://gadget-box.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
+                    <a target="_blank" href={"https://billing-page-nine.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
                     <a href={"https://github.com/KoyuncuSinan/billing-page"}  target="_blank" className='py-[0.5rem] rounded-lg px-[1.5rem] font-medium text-lg border-2 border-black hover:bg-black hover:text-white'>GitHub</a>
                 </div>
             <h3 className="mt-5 font-semibold text-2xl">About</h3>

@@ -1,6 +1,4 @@
 "use client"
-import Image from "next/image";
-import Link from "next/link";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -11,12 +9,12 @@ export default function Footer(){
             <div className="flex justify-between text-black">
             <p className="font-bold text-lg">Sinan Koyuncu</p>
                 <div className="flex">
-                <Link href={"https://www.linkedin.com/in/sinan-koyuncu/"} className="mr-5">
+                <a href={"https://www.linkedin.com/in/sinan-koyuncu/"} className="mr-5" target="_blank">
                 <LinkedInIcon />
-                </Link> 
-                <Link href={"https://github.com/KoyuncuSinan"}>
+                </a> 
+                <a href={"https://github.com/KoyuncuSinan"} className target="_blank">
                 <GitHubIcon />
-                </Link>
+                </a>
 
                 </div>
             </div>

@@ -8,7 +8,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 export default function NewsMobile(){
     return(
         <>
-        <Link href={"/"} className="text-black border-2 rounded-full p-2 border-[#FDC435] hover:bg-black hover:text-white hover:border-none"><ArrowBackIcon /></Link>
+        <Link href={"/"} className="text-black border-2 rounded-full p-2 border-[#FDC435] hover:bg-black hover:text-white hover:border-none sticky top-0"><ArrowBackIcon /></Link>
         <section className="text-black text-center mt-8">
             <h2 className="font-bold text-4xl">News Website Landing Page</h2>
             <div className="flex justify-between items-center mt-5">
@@ -17,7 +17,7 @@ export default function NewsMobile(){
                 
             </div>
             <div className='mx-auto flex flex-row justify-center mt-[2rem]'>
-                    <a target="_blank" href={"https://gadget-box.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
+                    <a target="_blank" href={"https://news-landing-page-virid.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
                     <a href={"https://github.com/KoyuncuSinan/news-landing-page"}  target="_blank" className='py-[0.5rem] rounded-lg px-[1.5rem] font-medium text-lg border-2 border-black hover:bg-black hover:text-white'>GitHub</a>
                 </div>
             <h3 className="mt-5 font-semibold text-2xl">About</h3>

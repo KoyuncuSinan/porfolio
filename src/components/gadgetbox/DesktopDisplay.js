@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import gadgetbox from "../../../public/gadget-box-monitor.png";
-import gadgetboxfull from "../../../public/gadgetbox-full-desktop.png";
 import gadgetBoxMobile from "../../../public/gadget-box-phone.png";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
@@ -10,7 +9,7 @@ export default function DesktopDisplay() {
     <section id="gadget">
       <Link
         href={"/"}
-        className="text-black border-2 rounded-full p-5 border-[#FDC435] hover:bg-black hover:text-white hover:border-none"
+        className="text-black border-2 rounded-full p-5 border-[#FDC435] hover:bg-black hover:text-white hover:border-none sticky top-0"
       >
         <ArrowBackIcon />
       </Link>

@@ -8,7 +8,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 export default function MobileDisplay(){
     return(
         <>
-        <Link href={"/"} className="text-black border-2 rounded-full p-2 border-[#FDC435] hover:bg-black hover:text-white hover:border-none"><ArrowBackIcon /></Link>
+        <Link href={"/"} className="text-black border-2 rounded-full p-2 border-[#FDC435] hover:bg-black hover:text-white hover:border-none sticky top-0"><ArrowBackIcon /></Link>
         <section className="text-black text-center mt-8">
             <h2 className="font-bold text-4xl">Gadget Box</h2>
             <div className="flex justify-between items-center mt-5">

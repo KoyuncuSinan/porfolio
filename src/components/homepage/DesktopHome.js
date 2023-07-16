@@ -84,7 +84,7 @@ export default function DesktopHome(){
             <p className='mt-2'>Thank you for visiting my portfolio. I look forward to connecting with you and discussing for job opportunities.</p>
           </div>
           <div className='mt-4'>
-         <Link to="contact" spy={true} smooth={true} offset={2} duration={500} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white cursor-pointer">Contact</Link>
+         <Link to="contact" spy={true} smooth={true} offset={-80} duration={500} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white cursor-pointer">Contact</Link>
           </div>
     </div>
     <div className="mt-12 col-span-1 w-[100%]">
@@ -111,6 +111,7 @@ export default function DesktopHome(){
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">SEO</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Responsive Design</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Adobe Photoshop</span>
+        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Figma</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Adobe Premiere</span>
         </div>
     </div>

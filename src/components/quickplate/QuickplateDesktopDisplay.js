@@ -7,7 +7,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 export default function QuickplateDesktopDisplay(){
     return(
         <section>
-                <Link href={"/"} className="text-black border-2 rounded-full p-5 border-[#FDC435] hover:bg-black hover:text-white hover:border-none"><ArrowBackIcon /></Link>
+                <Link href={"/"} className="text-black border-2 rounded-full p-5 border-[#FDC435] hover:bg-black hover:text-white hover:border-none sticky top-0"><ArrowBackIcon /></Link>
              <section className="text-black text-center mt-10">
             <h2 className="font-bold text-4xl">Quickplate</h2>
             <div className="mt-10 flex justify-center items-center">
