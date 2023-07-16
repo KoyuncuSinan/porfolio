@@ -4,6 +4,7 @@ import useBetterMediaQuery from '@/components/util/UseBetterMediaQuery'
 import Navbar from '@/components/navbar/Navbar';
 import DesktopHome from '@/components/homepage/DesktopHome';
 
+
 export default function Home() {
   const isMobile = useBetterMediaQuery("(max-width: 899px)");
 
