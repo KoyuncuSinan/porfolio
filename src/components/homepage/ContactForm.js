@@ -42,7 +42,7 @@ const ContactForm = () => {
         <hr className="w-[2rem] mx-auto rounded-xl mt-4 border-[#FDC435] border-4"></hr>
         <p className="mt-4">Feel free to reach out to me by filling out the form below, and I will respond to you as soon as I can.</p>
         {sent ? (
-          <p className="mt-4">Thank you for your message! We'll get back to you soon.</p>
+          <p className="mt-4">Thank you for your message! {"We'll get back to you soon."}</p>
         ) : (
           <form onSubmit={handleSubmit} className="p-10 bg-gray-200 mt-4 rounded-md flex flex-col">
             <div className="flex flex-col mb-4">

@@ -33,11 +33,11 @@ export default function QuickplateMobileDisplay(){
                     Quickplate provides a space for food enthusiasts to discover, create, and share delicious recipes that can be made in no time. 
                     The platform emphasizes simplicity, convenience, and the joy of cooking, offering a community-driven hub for culinary inspiration.
                         <p className="mt-2">With an intuitive and <b>user-friendly</b> interface, you can easily register and log in to Quickplate, 
-                        unlocking a world of culinary inspiration. Once you're part of the Quickplate family, you can create your own recipes, 
+                        unlocking a world of culinary inspiration. Once {"you're"} part of the Quickplate family, you can create your own recipes, 
                         upload mouthwatering images, and share your cooking triumphs with others.</p>
                         <p className="mt-2">To ensure seamless user experience and efficient image storage, Quickplate integrates with <b>AWS S3 server</b>, 
                         allowing you to upload and display enticing visuals alongside your recipes. </p>
-                        <p className="mt-2"> it's also a community of food enthusiasts. <b>Users can engage with recipes through comments</b>, 
+                        <p className="mt-2"> {"it's"} also a community of food enthusiasts. <b>Users can engage with recipes through comments</b>, 
                         providing feedback, suggestions, and personal anecdotes. You can <b>bookmark</b> your favorite recipes, 
                         creating a personalized collection of go-to dishes for future reference. 
                         In addition, users can upvote recipes they love, showcasing popular and highly-rated dishes within the community.</p>

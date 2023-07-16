@@ -38,7 +38,7 @@ export default function MobileHome(){
       <h3 className='text-[#FDC435] uppercase font-bold text-lg'>Full-stack Web Developer</h3>
       <Image src={picture} width={800} height={800} className="mx-auto rounded-full w-[60%] md:w-[50%]" alt="Sinan's picture"></Image>
       <h2 className='font-bold text-[2rem] leading-[120%] mt-2'>Hello, my name is Sinan Koyuncu</h2>
-      <p className="">I'm a full-stack web developer who's experienced in Node.js, React and Next.js</p>
+      <p>{"I'm a full-stack web developer who's experienced in Node.js, React and Next.js"}</p>
       <div className='mx-auto grid grid-cols-3 xs:flex flex-row xs justify-center mt-[2rem] '>
       <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} className='mr-[0.75rem] mx-auto rounded-lg bg-[#FDC435] py-[0.5rem] px-[0.5rem] 
       font-medium text-sm  xs:text-base sm:text-lg focus:bg-[#f37d1d] cursor-pointer flex items-center' >Projects
@@ -162,7 +162,7 @@ export default function MobileHome(){
                 <Image src={unsplashphone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
 
             </div>
-            <p className="my-10">My Unsplash is a platform inspired by the famous Unsplash, where users can share their photos and download others' photos at the same time.</p>
+            <p className="my-10">{"My Unsplash is a platform inspired by the famous Unsplash, where users can share their photos and download others' photos at the same time."}</p>
             <div className="mb-5">
             <a href={"/unsplash"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg">Go to project</a>
             </div>

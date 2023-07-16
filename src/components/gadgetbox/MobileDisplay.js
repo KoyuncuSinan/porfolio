@@ -73,7 +73,7 @@ export default function MobileDisplay(){
                 Our website is built with a{" "}
                 <b>responsive and mobile-first design</b>, ensuring that you can
                 access Gadget Box seamlessly across various devices. Whether
-                you're on your desktop computer, tablet, or smartphone, you can
+                {"you're"} on your desktop computer, tablet, or smartphone, you can
                 enjoy a consistent and optimized user experience.
               </p>
               <p className="mt-2">

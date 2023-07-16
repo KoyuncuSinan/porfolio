@@ -40,7 +40,7 @@ export default function DesktopHome(){
         <div className='col-span-2  lg:col-span-1 mx-auto'>
           <h3 className='text-[#FDC435] uppercase font-bold text-xl '>Full-stack Web Developer</h3>
           <h2 className='font-bold text-[4rem] leading-[120%]'>Hello, my name is Sinan Koyuncu</h2>
-          <p>I'm a full-stack web developer who's experienced in Node.js, React and Next.js</p>
+          <p>{"I'm a full-stack web developer who's experienced in Node.js, React and Next.js"}</p>
           <div className='mx-auto flex flex-row justify-start mt-[2rem] items-center'>
             <Link to="projects" spy={true} smooth={true} offset={2} duration={500} className='mr-[0.75rem] flex rounded-lg bg-[#FDC435] py-[0.5rem] px-[1rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white cursor-pointer' >Projects
                 <FolderIcon className='ml-2'/>
@@ -171,7 +171,7 @@ export default function DesktopHome(){
                 </div>
                 <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
                 <h3 className="font-bold text-3xl">My Unsplash</h3>
-                <p className="text-slate-600 mb-2">My Unsplash is a platform inspired by the famous Unsplash, where users can share their photos and download others' photos at the same time.</p>
+                <p className="text-slate-600 mb-2">{"My Unsplash is a platform inspired by the famous Unsplash, where users can share their photos and download others' photos at the same time."}</p>
                 <div>
                 <a href={"/unsplash"} className="rounded-lg bg-[#FDC435] py-[0.5rem] px-[3rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white cursor-pointer ">Go to project</a>
                 </div>
