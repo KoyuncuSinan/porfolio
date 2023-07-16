@@ -88,7 +88,7 @@ export default function DesktopHome(){
           </div>
     </div>
     <div className="mt-12 col-span-1 w-[100%]">
-        <h3 className="font-bold text-xl mb-4" id='skills'>My Skills</h3>
+        <h3 className="font-bold text-xl mb-4" id='skills'>My Skills / Tech Used</h3>
         <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 text-center items-center">
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2" >HTML</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">CSS</span>

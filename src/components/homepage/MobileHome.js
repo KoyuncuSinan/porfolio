@@ -85,7 +85,7 @@ export default function MobileHome(){
          </div>
     </div>
     <div className="mt-12">
-        <h3 className="font-bold text-xl mb-4" id="skills">My Skills</h3>
+        <h3 className="font-bold text-xl mb-4" id="skills">My Skills / Tech Used</h3>
         <div className="grid grid-cols-2 text-center items-center xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5">
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2" >HTML</span>
         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">CSS</span>
