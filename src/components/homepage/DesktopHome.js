@@ -38,9 +38,9 @@ export default function DesktopHome(){
         <>
         <section className='grid grid-cols-3 lg:grid-cols-2 text-black min-h-screen items-center -mt-24'>
         <div className='col-span-2  lg:col-span-1 mx-auto'>
-          <h3 className='text-[#FDC435] uppercase font-bold text-xl '>Full-stack Web Developer</h3>
+          <h3 className='text-[#FDC435] uppercase font-bold text-xl '>Full Stack Web Developer</h3>
           <h2 className='font-bold text-[4rem] leading-[120%]'>Hello, my name is Sinan Koyuncu</h2>
-          <p>{"I'm a full-stack web developer who's experienced in Node.js, React and Next.js"}</p>
+          <p>{"I'm a full stack web developer who's experienced in Node.js, React and Next.js"}</p>
           <div className='mx-auto flex flex-row justify-start mt-[2rem] items-center'>
             <Link to="projects" spy={true} smooth={true} offset={2} duration={500} className='mr-[0.75rem] flex rounded-lg bg-[#FDC435] py-[0.5rem] px-[1rem] font-medium text-lg hover:bg-[#f37d1d] hover:text-white cursor-pointer' >Projects
                 <FolderIcon className='ml-2'/>
@@ -68,7 +68,7 @@ export default function DesktopHome(){
     <div className="mt-12 col-span-1 w-[80%]">
         <h3 className="font-bold text-xl mb-4">Get to know me</h3>
          <div className='leading-loose'>
-         Welcome to my portfolio website! My name is Sinan Koyuncu, and I am a passionate <b>full-stack web developer.</b> With a solid foundation as a web content editor for five years, 
+         Welcome to my portfolio website! My name is Sinan Koyuncu, and I am a passionate <b>full stack web developer.</b> With a solid foundation as a web content editor for five years, 
          I have seamlessly transitioned into the world of programming, honing my skills and expertise through self-learning and <b>hands-on experience.</b>
          <p className='mt-2'>Throughout my journey as a web content editor, I developed a deep understanding of the importance of <b>user experience</b> and captivating content. 
                 I learned how to create engaging web pages, <b>optimize content for search engines</b>, and ensure a seamless browsing experience for users. 
@@ -78,7 +78,7 @@ export default function DesktopHome(){
               I possess a unique perspective that enables me to understand and <b>effectively collaborate with designers, content creators, and other stakeholders.</b> I thrive in collaborative environments, and I am always eager to contribute my technical expertise while actively seeking opportunities for growth and learning.
             </p>
             <p className='mt-2'>
-            This portfolio website showcases some of my recent projects, which highlight my skills as a full-stack web developer. 
+            This portfolio website showcases some of my recent projects, which highlight my skills as a full stack web developer. 
             I invite you to explore my work and get a glimpse of my coding style, problem-solving abilities, and creativity.
             </p>
             <p className='mt-2'>Thank you for visiting my portfolio. I look forward to connecting with you and discussing for job opportunities.</p>
@@ -121,7 +121,7 @@ export default function DesktopHome(){
         <hr className="w-[2rem] mx-auto rounded-xl mt-4 border-[#FDC435] border-4"></hr>
         <div className="flex flex-row justify-between my-4 w-[70%] mx-auto">
             <div className="grid grid-cols-5 items-center rounded-lg bg-[#FDC435] py-[1rem] px-[1.5rem] font-semibold text-base cursor-pointer mr-1 hover:bg-[#f37d1d] hover:text-white" onClick={handleFullstackClick} > 
-                <h3 className="col-span-4 ">Full-stack Projects</h3>
+                <h3 className="col-span-4 ">Full Stack Projects</h3>
                 {showFullstack ? <ArrowDropUpIcon className="col-span-1 mx-auto" /> : <ArrowDropDownIcon className="col-span-1 mx-auto"/>} 
             </div>
             <div className="grid grid-cols-5 items-center py-[1rem] rounded-lg px-[1.5rem] font-semibold text-base  bg-black text-white hover:bg-gray-600 cursor-pointer ml-1 " onClick={handleFrontendClick}> 

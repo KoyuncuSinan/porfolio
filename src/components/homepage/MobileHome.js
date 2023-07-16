@@ -35,10 +35,10 @@ export default function MobileHome(){
         <>
     <section className=' text-black items-center min-h-screen mt-16'>
     <div className='mx-auto text-center'>
-      <h3 className='text-[#FDC435] uppercase font-bold text-lg'>Full-stack Web Developer</h3>
+      <h3 className='text-[#FDC435] uppercase font-bold text-lg'>Full Stack Web Developer</h3>
       <Image src={picture} width={800} height={800} className="mx-auto rounded-full w-[60%] md:w-[50%]" alt="Sinan's picture"></Image>
       <h2 className='font-bold text-[2rem] leading-[120%] mt-2'>Hello, my name is Sinan Koyuncu</h2>
-      <p>{"I'm a full-stack web developer who's experienced in Node.js, React and Next.js"}</p>
+      <p>{"I'm a full stack web developer who's experienced in Node.js, React and Next.js"}</p>
       <div className='mx-auto grid grid-cols-3 xs:flex flex-row xs justify-center mt-[2rem] '>
       <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} className='mr-[0.75rem] mx-auto rounded-lg bg-[#FDC435] py-[0.5rem] px-[0.5rem] 
       font-medium text-sm  xs:text-base sm:text-lg focus:bg-[#f37d1d] cursor-pointer flex items-center' >Projects
@@ -64,7 +64,7 @@ export default function MobileHome(){
     <div className="mt-12">
         <h3 className="font-bold text-xl">Get to know me</h3>
         <div className='leading-loose'>
-         Welcome to my portfolio website! My name is Sinan Koyuncu, and I am a passionate full-stack web developer. With a solid foundation as a web content editor for five years, 
+         Welcome to my portfolio website! My name is Sinan Koyuncu, and I am a passionate full stack web developer. With a solid foundation as a web content editor for five years, 
          I have seamlessly transitioned into the world of programming, honing my skills and expertise through self-learning and hands-on experience.
          <p className='mt-2'>Throughout my journey as a web content editor, I developed a deep understanding of the importance of user experience and captivating content. 
                 I learned how to create engaging web pages, optimize content for search engines, and ensure a seamless browsing experience for users. 
@@ -75,7 +75,7 @@ export default function MobileHome(){
               I thrive in collaborative environments, and I am always eager to contribute my technical expertise while actively seeking opportunities for growth and learning.
             </p>
             <p className='mt-2'>
-            This portfolio website showcases some of my recent projects, which highlight my skills as a full-stack web developer. 
+            This portfolio website showcases some of my recent projects, which highlight my skills as a full stack web developer. 
             I invite you to explore my work and get a glimpse of my coding style, problem-solving abilities, and creativity.
             </p>
             <p className='mt-2'>Thank you for visiting my portfolio. I look forward to connecting with you and discussing for job opportunities.</p>
@@ -120,7 +120,7 @@ export default function MobileHome(){
         <hr className="w-[2rem] mx-auto rounded-xl mt-4 border-[#FDC435] border-4"></hr>
         <div className="flex flex-row justify-between my-4">
             <div className="grid grid-cols-5 items-center rounded-lg bg-[#FDC435] py-[0.5rem] px-[1rem] font-semibold text-base cursor-pointer mr-1" onClick={handleFullstackClick}> 
-                <h3 className="col-span-4 ">Full-stack Projects</h3>
+                <h3 className="col-span-4 ">Full Stack Projects</h3>
                 {showFullstack ? <ArrowDropUpIcon className="col-span-1" /> : <ArrowDropDownIcon className="col-span-1"/>} 
             </div>
             <div className="grid grid-cols-5 items-center py-[0.5rem] rounded-lg px-[1rem] font-semibold text-base  bg-black text-white cursor-pointer ml-1" onClick={handleFrontendClick} > 
