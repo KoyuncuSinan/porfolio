@@ -55,7 +55,7 @@ export default function DesktopHome(){
           </div>
         </div>
         <div className=" w-[100%] lg:w-[70%] col-span-1 flex justify-end mx-auto" >
-        <Image src={picture} width={800} height={800} className="rounded-full object-cover" alt="Sinan's picture"></Image>
+        <Image src={picture} width={800} height={800} className="rounded-full object-cover" priority alt="Sinan's picture"></Image>
         </div>
       </section>
 
@@ -134,8 +134,8 @@ export default function DesktopHome(){
            
             <div className='grid grid-cols-2'>
                 <div className="flex justify-between items-center">
-                    <Image src={gadgetbox} width={800} height={800} className="w-[60%]" alt="Website's desktop image"></Image>
-                    <Image src={gadgetboxphone} width={800} height={800} className="w-[60%]" alt="Website's mobile image"></Image>
+                    <Image src={gadgetbox} width={800} height={800} className="w-[60%]" alt="Website's desktop image" priority></Image>
+                    <Image src={gadgetboxphone} width={800} height={800} className="w-[60%]" alt="Website's mobile image" priority></Image>
                 </div>
                 <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
                 <h3 className="font-bold text-3xl">Gadget Box</h3>
@@ -150,8 +150,8 @@ export default function DesktopHome(){
         <div className="mt-10 p-2 rounded-md  border-purple-800">
            <div className='grid grid-cols-2'>
                <div className="flex justify-between items-center">
-                   <Image src={quickplate} width={800} height={800} className="w-[60%]" alt="Website's desktop image"></Image>
-                   <Image src={quickplatephone} width={800} height={800} className="w-[60%]" alt="Website's mobile image"></Image>
+                   <Image src={quickplate} width={800} height={800} className="w-[60%]" alt="Website's desktop image" priority></Image>
+                   <Image src={quickplatephone} width={800} height={800} className="w-[60%]" alt="Website's mobile image" priority></Image>
                </div>
                <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
                <h3 className="font-bold text-3xl">Quickplate</h3>
@@ -166,8 +166,8 @@ export default function DesktopHome(){
         <div className="mt-10 p-2 rounded-md  border-purple-800">
             <div className='grid grid-cols-2'>
                 <div className="flex justify-between items-center">
-                    <Image src={unsplash} width={800} height={800} className="w-[60%]" alt="Website's desktop image"></Image>
-                    <Image src={unsplashphone} width={800} height={800} className="w-[60%]" alt="Website's mobile image"></Image>
+                    <Image src={unsplash} width={800} height={800} className="w-[60%]" alt="Website's desktop image" priority></Image>
+                    <Image src={unsplashphone} width={800} height={800} className="w-[60%]" alt="Website's mobile image" priority></Image>
                 </div>
                 <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
                 <h3 className="font-bold text-3xl">My Unsplash</h3>

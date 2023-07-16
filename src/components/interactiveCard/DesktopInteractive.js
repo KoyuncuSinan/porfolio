@@ -22,8 +22,8 @@ export default function DesktopInteractive(){
                      </div>
                 </div>
                 <div className="flex justify-between items-center col-span-1">
-                <Image src={interactive} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image"></Image>
-                <Image src={interactiveMobile} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
+                <Image src={interactive} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image" priority></Image>
+                <Image src={interactiveMobile} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image" priority></Image>
             </div>
             </div>
                 <div>

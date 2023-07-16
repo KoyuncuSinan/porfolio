@@ -12,8 +12,8 @@ return(
    
     <div className='grid grid-cols-2'>
         <div className="flex justify-between items-center">
-            <Image src={interactiveCardDesktop} width={800} height={800} className="w-[60%]" alt="Website's desktop image"></Image>
-            <Image src={interactiveCardMobile} width={800} height={800} className="w-[60%]" alt="Website's mobile image"></Image>
+            <Image src={interactiveCardDesktop} width={800} height={800} className="w-[60%]" alt="Website's desktop image" priority></Image>
+            <Image src={interactiveCardMobile} width={800} height={800} className="w-[60%]" alt="Website's mobile image" priority></Image>
         </div>
         <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
         <h3 className="font-bold text-3xl">Interactive Card</h3>
@@ -28,8 +28,8 @@ return(
 <div className="mt-10 p-2 rounded-md  border-purple-800">
    <div className='grid grid-cols-2'>
        <div className="flex justify-between items-center">
-           <Image src={newsLandingDesktop} width={800} height={800} className="w-[60%] object-cover" alt="Website's desktop image"></Image>
-           <Image src={newsLandingMobile} width={800} height={800} className="w-[60%] object-cover" alt="Website's mobile image"></Image>
+           <Image src={newsLandingDesktop} width={800} height={800} className="w-[60%] object-cover" alt="Website's desktop image" priority></Image>
+           <Image src={newsLandingMobile} width={800} height={800} className="w-[60%] object-cover" alt="Website's mobile image" priority></Image>
        </div>
        <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
        <h3 className="font-bold text-3xl">News Website Landing Page</h3>
@@ -44,7 +44,7 @@ return(
 <div className="mt-10 p-2 rounded-md  border-purple-800">
     <div className='grid grid-cols-2'>
         <div className="flex justify-center items-center">
-            <Image src={billingpagedesktop} width={800} height={800} className="w-[60%] object-cover" alt="Website's desktop image"></Image>
+            <Image src={billingpagedesktop} width={800} height={800} className="w-[60%] object-cover" alt="Website's desktop image" priority></Image>
         </div>
         <div className='flex flex-col items-center justify-around px-10 2xl:px-32'>
         <h3 className="font-bold text-3xl">Billing Page</h3>

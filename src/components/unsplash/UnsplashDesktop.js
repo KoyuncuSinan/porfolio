@@ -17,6 +17,7 @@ export default function UnsplashDesktop(){
             height={1080}
             className="w-[40%] rounded-md object-cover"
             alt="Website's desktop image"
+            priority
           ></Image>
               <Image
               src={unsplashPhone}
@@ -24,6 +25,7 @@ export default function UnsplashDesktop(){
             height={1080}
             className="w-[40%] rounded-md object-cover"
             alt="Website's mobile image"
+            priority
           ></Image>
         </div>
             <div className="grid grid-cols-2 items-center gap-6 mt-10">

@@ -11,8 +11,8 @@ export default function UnsplashMobile(){
         <section className="text-black text-center mt-8">
             <h2 className="font-bold text-4xl">My Unsplash</h2>
             <div className="flex justify-between items-center mt-5">
-                <Image src={unsplash} width={800} height={800} className="w-[50%] h-[50%] " alt="Website's desktop image"></Image>
-                <Image src={unsplashPhone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
+                <Image src={unsplash} width={800} height={800} className="w-[50%] h-[50%] " alt="Website's desktop image" priority></Image>
+                <Image src={unsplashPhone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image" priority></Image>
                 
             </div>
             <div className='mx-auto flex flex-row justify-center mt-[2rem]'>

@@ -11,8 +11,8 @@ return(
             <div className="mt-4 border-2 p-2 rounded-md border-purple-800 shadow-2xl">
             <h3 className="font-bold mb-4">Interactive Card</h3>
             <div className="flex justify-between items-center">
-                <Image src={interactiveCardDesktop} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image"></Image>
-                <Image src={interactiveCardMobile} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
+                <Image src={interactiveCardDesktop} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image" priority></Image>
+                <Image src={interactiveCardMobile} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image " priority></Image>
 
             </div>
             <p className="my-10">Card design that reflects the entered credit card information interactively on the screen.</p>
@@ -24,8 +24,8 @@ return(
         <div className="mt-24 border-2 p-2 rounded-md border-purple-800 shadow-2xl" >
             <h3 className="font-bold mb-4">News Website Landing Page</h3>
             <div className="flex justify-between items-center">
-                <Image src={newsLandingDesktop} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image"></Image>
-                <Image src={newsLandingMobile} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
+                <Image src={newsLandingDesktop} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image" priority></Image>
+                <Image src={newsLandingMobile} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image" priority></Image>
 
             </div>
             <p className="my-10">An example of a homepage that a technology news website could use.</p>
@@ -37,7 +37,7 @@ return(
         <div className="mt-24 border-2 p-2 rounded-md border-purple-800 shadow-2xl">
             <h3 className="font-bold mb-4">Billing Page</h3>
             <div className="flex items-center">
-                <Image src={billingpagedesktop} width={800} height={800} alt="Website's desktop image"></Image>
+                <Image src={billingpagedesktop} width={800} height={800} alt="Website's desktop image" priority></Image>
 
             </div>
             <p className="my-10">A billing page that shows your billing history, payments and card details in a modern way.</p>
