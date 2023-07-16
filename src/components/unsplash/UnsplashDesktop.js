@@ -1,5 +1,6 @@
 import Image from "next/image";
-import unsplash from "../../../public/MyUnsplash-full.png"
+import unsplash from "../../../public/unsplash-desktop.png"
+import unsplashPhone from "../../../public/unsplash-mobile.png"
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Link from "next/link";
 
@@ -9,9 +10,22 @@ export default function UnsplashDesktop(){
                 <Link href={"/"} className="text-black border-2 rounded-full p-5 border-[#FDC435] hover:bg-black hover:text-white hover:border-none"><ArrowBackIcon /></Link>
              <section className="text-black text-center mt-10">
             <h2 className="font-bold text-4xl">My Unsplash</h2>
-            <div className="mt-10 ">
-                <Image src={unsplash} width={1920} height={1080} className="w-[80%] rounded-md object-cover mx-auto shadow-2xl"></Image>
-            </div>
+            <div className="mt-10 flex justify-center items-center">
+          <Image
+            src={unsplash}
+            width={1920}
+            height={1080}
+            className="w-[40%] rounded-md object-cover"
+            alt="Website's desktop image"
+          ></Image>
+              <Image
+              src={unsplashPhone}
+            width={1920}
+            height={1080}
+            className="w-[40%] rounded-md object-cover"
+            alt="Website's mobile image"
+          ></Image>
+        </div>
             <div className="grid grid-cols-2 items-center gap-6 mt-10">
                 <div className="col-span-1">
                     <h3 className="font-semibold text-2xl">About</h3>
@@ -38,13 +52,14 @@ export default function UnsplashDesktop(){
                 </div>
                 <div className="col-span-1 h-[100%]">
                 <div className='mx-auto flex flex-row justify-center'>
-                        <a target="_blank" href={"https://gadget-box.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
+                        <a target="_blank" href={"https://myunsplash-slcn.onrender.com/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
                         <a href={"https://github.com/KoyuncuSinan/unsplash-demo"}  target="_blank" className='py-[0.5rem] rounded-lg px-[1.5rem] font-medium text-lg border-2 border-black hover:bg-black hover:text-white'>GitHub</a>
                      </div>
                      <div className="mt-2 flex flex-col w-[70%] lg:w-[60%] xl:w-[55%] 2xl:w-[40%] mx-auto p-3 bg-slate-300 rounded-md font-light">
                             <span>Demo</span>
                             <span>email: test1@test.com</span>
-                            <span className="ml-2"> password: test1</span>
+                            <span> password: test1</span>
+                            <span className="font-semibold text-xs">**Free hosting is used for backend, therefore first connection will be slower.</span>
                     </div>
                     <h3 className="mt-10 font-semibold text-2xl">Used Technologies</h3>
                     <hr className="w-[2rem] mx-auto rounded-xl mt-2 border-[#FDC435] border-4"></hr>

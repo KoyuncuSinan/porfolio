@@ -36,7 +36,7 @@ export default function MobileHome(){
     <section className=' text-black items-center min-h-screen mt-16'>
     <div className='mx-auto text-center'>
       <h3 className='text-[#FDC435] uppercase font-bold text-lg'>Full-stack Web Developer</h3>
-      <Image src={picture} width={800} height={800} className="mx-auto rounded-full w-[60%] md:w-[50%]" ></Image>
+      <Image src={picture} width={800} height={800} className="mx-auto rounded-full w-[60%] md:w-[50%]" alt="Sinan's picture"></Image>
       <h2 className='font-bold text-[2rem] leading-[120%] mt-2'>Hello, my name is Sinan Koyuncu</h2>
       <p className="">I'm a full-stack web developer who's experienced in Node.js, React and Next.js</p>
       <div className='mx-auto grid grid-cols-3 xs:flex flex-row xs justify-center mt-[2rem] '>
@@ -129,8 +129,8 @@ export default function MobileHome(){
             <div className="mt-4 border-2 p-2 rounded-md border-purple-800 shadow-2xl">
             <h3 className="font-bold mb-4">Gadget Box</h3>
             <div className="flex justify-between items-center">
-                <Image src={gadgetbox} width={800} height={800} className="w-[50%] h-[50%]"></Image>
-                <Image src={gadgetboxphone} width={800} height={800} className="w-[50%] h-[50%]"></Image>
+                <Image src={gadgetbox} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image"></Image>
+                <Image src={gadgetboxphone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
 
             </div>
             <p className="my-10">Gadget Box is a social platform for gamers, where they connect with community and share their reviews about games.</p>
@@ -142,8 +142,8 @@ export default function MobileHome(){
         <div className="mt-24 border-2 p-2 rounded-md border-purple-800 shadow-2xl" >
             <h3 className="font-bold mb-4">Quickplate</h3>
             <div className="flex justify-between items-center">
-                <Image src={quickplate} width={800} height={800} className="w-[50%] h-[50%]"></Image>
-                <Image src={quickplatephone} width={800} height={800} className="w-[50%] h-[50%]"></Image>
+                <Image src={quickplate} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image"></Image>
+                <Image src={quickplatephone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
 
             </div>
             <p className="my-10">Quickplate is a platform where other people share their recipes in a short form, helping you to follow them quickly and easily.</p>
@@ -155,8 +155,8 @@ export default function MobileHome(){
         <div className="mt-24 border-2 p-2 rounded-md border-purple-800 shadow-2xl">
             <h3 className="font-bold mb-4">My Unsplash</h3>
             <div className="flex justify-between items-center">
-                <Image src={unsplash} width={800} height={800} className="w-[50%] h-[50%]"></Image>
-                <Image src={unsplashphone} width={800} height={800} className="w-[50%] h-[50%]"></Image>
+                <Image src={unsplash} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image"></Image>
+                <Image src={unsplashphone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
 
             </div>
             <p className="my-10">My Unsplash is a platform inspired by the famous Unsplash, where users can share their photos and download others' photos at the same time.</p>

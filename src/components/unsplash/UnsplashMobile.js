@@ -11,18 +11,19 @@ export default function UnsplashMobile(){
         <section className="text-black text-center mt-8">
             <h2 className="font-bold text-4xl">My Unsplash</h2>
             <div className="flex justify-between items-center mt-5">
-                <Image src={unsplash} width={800} height={800} className="w-[50%] h-[50%] "></Image>
-                <Image src={unsplashPhone} width={800} height={800} className="w-[50%] h-[50%]"></Image>
+                <Image src={unsplash} width={800} height={800} className="w-[50%] h-[50%] " alt="Website's desktop image"></Image>
+                <Image src={unsplashPhone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
                 
             </div>
             <div className='mx-auto flex flex-row justify-center mt-[2rem]'>
-                        <a target="_blank" href={"https://gadget-box.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
+                        <a target="_blank" href={"https://myunsplash-slcn.onrender.com/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
                         <a href={"https://github.com/KoyuncuSinan/unsplash-demo"}  target="_blank" className='py-[0.5rem] rounded-lg px-[1.5rem] font-medium text-lg border-2 border-black hover:bg-black hover:text-white'>GitHub</a>
                      </div>
                 <div className="mt-2 flex flex-col w-[70%] xs:w-[60%] sm:w-[45%] md:w-[40%] mx-auto p-3 bg-slate-300 rounded-md font-light">
               <span>Demo</span>
               <span>email: test1@test.com</span>
-              <span className="ml-2"> password: test1</span>
+              <span> password: test1</span>
+              <span className="font-semibold text-xs">**Free hosting is used for backend, therefore first connection will be slower.</span>
             </div>
             <h3 className="mt-5 font-semibold text-2xl">About</h3>
             <hr className="w-[2rem] mx-auto rounded-xl mt-2 border-[#FDC435] border-4"></hr>

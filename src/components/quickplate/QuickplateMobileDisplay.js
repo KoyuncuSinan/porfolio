@@ -12,18 +12,19 @@ export default function QuickplateMobileDisplay(){
         <section className="text-black text-center mt-8">
             <h2 className="font-bold text-4xl">Quickplate</h2>
             <div className="flex justify-between items-center mt-5">
-                <Image src={quickplate} width={800} height={800} className="w-[50%] h-[50%] "></Image>
-                <Image src={quickplatephone} width={800} height={800} className="w-[50%] h-[50%]"></Image>
+                <Image src={quickplate} width={800} height={800} className="w-[50%] h-[50%] " alt="Website's desktop image"></Image>
+                <Image src={quickplatephone} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's mobile image"></Image>
                 
             </div>
             <div className='mx-auto flex flex-row justify-center mt-[2rem]'>
-                        <a target="_blank" href={"https://gadget-box.vercel.app/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
+                        <a target="_blank" href={"https://quickplate.onrender.com/"} className='mr-[0.75rem] rounded-lg bg-[#FDC435] py-[0.5rem] px-[1.5rem] font-medium text-lg flex items-center hover:bg-[#f37d1d] hover:text-white'>See Live</a>
                         <a href={"https://github.com/KoyuncuSinan/recipe-project"}  target="_blank" className='py-[0.5rem] rounded-lg px-[1.5rem] font-medium text-lg border-2 border-black hover:bg-black hover:text-white'>GitHub</a>
                      </div>
                      <div className="mt-2 flex flex-col w-[70%] xs:w-[60%] sm:w-[45%] md:w-[40%] mx-auto p-3 bg-slate-300 rounded-md font-light">
               <span>Demo</span>
-              <span>email: test1@test.com</span>
-              <span className="ml-2"> password: test1</span>
+              <span>email: test5@test.com</span>
+              <span> password: test5</span>
+              <span className="font-semibold text-xs">**Free hosting is used for backend, therefore first connection will be slower.</span>
             </div>
             <h3 className="mt-5 font-semibold text-2xl">About</h3>
             <hr className="w-[2rem] mx-auto rounded-xl mt-2 border-[#FDC435] border-4"></hr>
@@ -56,24 +57,25 @@ export default function QuickplateMobileDisplay(){
                     <h3 className="mt-10 font-semibold text-2xl">Used Technologies</h3>
                     <hr className="w-[2rem] mx-auto rounded-xl mt-2 border-[#FDC435] border-4"></hr>
                     <div className="grid grid-cols-2 text-center items-center xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 mt-5">
-                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2" >HTML</span>
+                    <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2" >HTML</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">CSS</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2 ">JavaScript</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">React</span>
-                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Next.js</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Node.js</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Express.js</span>
+                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">React Router</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">GIT</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">GitHub</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">TailwindCSS</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Material UI</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">MongoDB</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">MongoDB Atlas</span>
-                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">MySQL</span>
+                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Multer</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">AWS S3</span>
-                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Cloudinary</span>
-                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Python Basics</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">SEO</span>
+                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Bcrypt</span>
+                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Helmet</span>
+                        <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">JWT</span>
                         <span className="py-[0.5rem] px-[0.5rem] bg-slate-300 rounded-md mr-2 mb-2">Responsive Design</span>
 
         </div>

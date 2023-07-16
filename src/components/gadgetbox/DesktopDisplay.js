@@ -22,12 +22,14 @@ export default function DesktopDisplay() {
             width={1920}
             height={1080}
             className="w-[40%] rounded-md object-cover"
+            alt="Website's desktop image"
           ></Image>
               <Image
               src={gadgetBoxMobile}
             width={1920}
             height={1080}
             className="w-[40%] rounded-md object-cover"
+            alt="Website's mobile image"
           ></Image>
         </div>
         <div className="grid grid-cols-4 gap-6 items-center mt-10">

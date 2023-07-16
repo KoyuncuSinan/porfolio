@@ -12,8 +12,8 @@ export default function MobileDisplay(){
         <section className="text-black text-center mt-8">
             <h2 className="font-bold text-4xl">Gadget Box</h2>
             <div className="flex justify-between items-center mt-5">
-                <Image src={gadgetbox} width={800} height={800} className="w-[50%] h-[50%]"></Image>
-                <Image src={gadgetboxphone} width={800} height={800} className="w-[50%] h-[50%] "></Image>
+                <Image src={gadgetbox} width={800} height={800} className="w-[50%] h-[50%]" alt="Website's desktop image"></Image>
+                <Image src={gadgetboxphone} width={800} height={800} className="w-[50%] h-[50%] " alt="Website's mobile image"></Image>
                 
             </div>
             <div className='mx-auto flex flex-row justify-center mt-[2rem]'>
